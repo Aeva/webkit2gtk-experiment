@@ -23,3 +23,19 @@ The dependencies needed to build this are:
 Additionally, the main program opens up "localhost:8000/demos/light"
 or similar, but at this point in time it does not matter if you change
 it to open another url.
+
+
+Here is what I've been able to find so far to use as documentation
+
+A simple example using an extension:
+ - https://github.com/vain/lariza
+
+A blog post that provides only partial examples:
+ - https://blogs.igalia.com/carlosgc/2013/09/10/webkit2gtk-web-process-extensions/
+
+Reference documentation explanation, similar to the blog post:
+ - http://webkitgtk.org/reference/webkit2gtk/stable/WebKitWebExtension.html
+
+
+The Lariza example seems to be broken too ... that or their adblock
+extension isn't very good and extensions can't write to stdout?
