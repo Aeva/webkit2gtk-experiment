@@ -1,0 +1,25 @@
+
+
+--> The code in this repository is currently broken <--
+
+
+I'm attempting to use WebKit2GTK+ to write games in C++ that use M.GRL
+as a display engine.  Ideally, this means being able to expose C++
+functions to the javascript environment.  As best I can tell from the
+docs, extensions are the only way to do this.
+
+
+I'm uploading this in hopes that someone can help me figure out why
+what I'm doing doesn't work.  Everything builds ok, but the custom
+extension doesn't load, and "myCFunction" is never added to the window
+object.
+
+
+The dependencies needed to build this are:
+ - webkit2gtk-4.0
+ - gtkmm-3.0
+
+
+Additionally, the main program opens up "localhost:8000/demos/light"
+or similar, but at this point in time it does not matter if you change
+it to open another url.
