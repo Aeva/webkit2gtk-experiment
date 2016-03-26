@@ -57,7 +57,7 @@ window_object_cleared_callback (WebKitScriptWorld *world,
 //
 //  Extension initialization thing.
 //
-G_MODULE_EXPORT void
+extern "C" G_MODULE_EXPORT void
 webkit_web_extension_initialize (WebKitWebExtension *extension)
 {
     std::cout << "EXTENSION INITIALIZED\n";
